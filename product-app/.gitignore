@@ -1,0 +1,43 @@
+# .gitignore
+
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Vite cache
+.vite/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment files
+.env
+.env.*.local
+
+# Editor settings
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Coverage output
+coverage/
+
+# Optional: If you're using Storybook
+storybook-static/
+
+# Optional: If using Cypress
+cypress/videos/
+cypress/screenshots/
+
+# Optional: TypeScript
+*.tsbuildinfo
